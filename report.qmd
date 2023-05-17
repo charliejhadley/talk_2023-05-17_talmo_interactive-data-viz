@@ -16,3 +16,22 @@ library(plotly)
 library(sf)
 library(rnaturalearthdata)
 ```
+
+# I;M GOING TO MAKE A BAD CHART
+
+loess is a thing...
+
+```{r}
+gg_sleep <- msleep %>% 
+  ggplot() +
+  aes(x = sleep_rem,
+      y = sleep_total,
+      colour = vore) +
+  geom_point() +
+  geom_smooth()
+```
+
+```{r}
+gg_sleep %>% 
+  ggplotly()
+```
