@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Allows us to combine text, code, images and output - it's a literate programming environment.
+
+```{r}
+library(tidyverse)
+library(fivethirtyeight)
+library(highcharter)
+library(plotly)
+library(sf)
+library(rnaturalearthdata)
+```
